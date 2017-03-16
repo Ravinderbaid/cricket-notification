@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from notify_try import notify_msg as nm
 """
 	from FOLDER_NAME import FILENAME
@@ -42,4 +43,3 @@ class Scrap_Data:
 
 a=Scrap_Data()
 nm().msg(a.fetch_url())
-
